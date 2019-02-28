@@ -72,8 +72,6 @@ class Cube{
 			// Remember the drag original rotation
 			rotation.x = +this.element.style.transform.replace(/^.*rotateX\((-?\d+)deg\).*$/u, '$1');
 			rotation.y = +this.element.style.transform.replace(/^.*rotateY\((-?\d+)deg\).*$/u, '$1');
-
-			console.log(rotation);
 		};
 		
 		this.parent.addEventListener('mousedown', handleMousedown);
