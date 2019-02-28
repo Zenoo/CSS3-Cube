@@ -1,6 +1,6 @@
 # CSS3 Cube
 
-A canvas-free, Css3 only Cube
+A canvas-free, CSS3 only Cube
 
 [![Demo](https://github.com/Zenoo/CSS3-Cube/raw/master/cube-demo.gif)](https://jsfiddle.net/Zenoo0/krn7ygd3/)
 
