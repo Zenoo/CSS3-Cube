@@ -1,12 +1,12 @@
 {
   "name": "css3-cube",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A canvas-free, CSS3 only cube",
   "main": "Cube.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"preversion": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true"
-	},
+    "preversion": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zenoo/CSS3-Cube.git"
