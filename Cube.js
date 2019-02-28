@@ -6,6 +6,9 @@
 class Cube{
 	/**
      * Creates an instance of Cube
+	 * @param {String|Element} target           The element that will contain the Cube
+	 * @param {Object}         parameters       Parameters holder
+	 * @param {Number}         parameters.ratio Ratio at which mousemoves will impact the rotation of the cube
      */
 	constructor(target, parameters){
 		/**
