@@ -25,14 +25,16 @@ class Cube{
 	 * @private
 	 */
 	_build(){
-		this.parent.classList.add('css3-cube');
+		this.parent.classList.add('css3-cube-wrapper');
 		this.parent.innerHTML = `
-			<header class="cube-top"></header>
-			<section class="cube-front"></section>
-			<aside class="cube-right"></aside>
-			<section class="cube-back"></section>
-			<aside class="cube-left"></aside>
-			<footer class="cube-bottom"></footer>
+			<div class="css3-cube">
+				<header class="cube-face" data-face="top"></header>
+				<section class="cube-face" data-face="front"></section>
+				<aside class="cube-face" data-face="right"></aside>
+				<section class="cube-face" data-face="back"></section>
+				<aside class="cube-face" data-face="left"></aside>
+				<footer class="cube-face" data-face="bottom"></footer>
+			</div>
 		`;
 	}
 
