@@ -10,8 +10,8 @@ A canvas-free, CSS3 only Cube
 
 Simply import CSS3 Cube into your HTML.
 ```HTML
-<link rel="stylesheet" href="https://unpkg.com/css3-cube@0.1.4/Cube.min.css">
-<script src="https://unpkg.com/css3-cube@0.1.4/Cube.min.js"></script>	
+<link rel="stylesheet" href="https://unpkg.com/css3-cube@0.1.7/Cube.min.css">
+<script src="https://unpkg.com/css3-cube@0.1.7/Cube.min.js"></script>	
 ```
 * **How to use**
 
