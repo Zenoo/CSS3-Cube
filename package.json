@@ -5,7 +5,8 @@
   "main": "Cube.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true"
+    "preversion": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,48 @@
   "bugs": {
     "url": "https://github.com/Zenoo/CSS3-Cube/issues"
   },
-  "homepage": "https://github.com/Zenoo/CSS3-Cube#readme"
+  "homepage": "https://github.com/Zenoo/CSS3-Cube#readme",
+  "devDependencies": {
+    "standard-version": "^8.0.2"
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "style",
+        "section": "Visual updates"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactoring"
+      },
+      {
+        "type": "perf",
+        "section": "Performance"
+      },
+      {
+        "type": "progress",
+        "section": "Progress"
+      },
+      {
+        "type": "test",
+        "section": "Tests"
+      }
+    ]
+  }
 }
