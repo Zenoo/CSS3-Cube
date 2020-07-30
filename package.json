@@ -1,12 +1,12 @@
 {
   "name": "css3-cube",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A canvas-free, CSS3 only cube",
   "main": "Cube.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add * || true",
-    "release": "standard-version"
+    "jsdoc": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add docs || true",
+    "release": "npm run jsdoc && standard-version"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Zenoo/CSS3-Cube#readme",
   "devDependencies": {
+    "jsdoc": "^3.6.5",
     "standard-version": "^8.0.2"
   },
   "standard-version": {
