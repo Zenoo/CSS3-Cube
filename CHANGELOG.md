@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.6...v0.1.7) (2020-07-30)
+
+
+### Bug Fixes
+
+* Updated version links in README ([4235450](https://github.com/Zenoo/CSS3-Cube/commit/42354502db9ab41763860fe776f2b85a4eaeac20))
+
 ### [0.1.6](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.3...v0.1.6) (2020-07-30)
 
 
