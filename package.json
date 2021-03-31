@@ -26,7 +26,7 @@
   "homepage": "https://github.com/Zenoo/CSS3-Cube#readme",
   "devDependencies": {
     "jsdoc": "^3.6.5",
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.1.1"
   },
   "standard-version": {
     "types": [
