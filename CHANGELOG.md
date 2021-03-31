@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.7...v0.1.8) (2021-03-31)
+
+
+### Bug Fixes
+
+* npm vulnerabilities ([6d7f179](https://github.com/Zenoo/CSS3-Cube/commit/6d7f179a7b0ee774c81b8d253c4f48934d1edec8))
+
 ### [0.1.7](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.6...v0.1.7) (2020-07-30)
 
 
