@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.8...v0.1.9) (2021-07-13)
+
+
+### Features
+
+* Added babel for IE compatibility ([2426f9e](https://github.com/Zenoo/CSS3-Cube/commit/2426f9ecb7509c2ed55c721e8969c2aaad41d689))
+
 ### [0.1.8](https://github.com/Zenoo/CSS3-Cube/compare/v0.1.7...v0.1.8) (2021-03-31)
 
 

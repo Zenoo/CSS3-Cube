@@ -1,12 +1,12 @@
 {
   "name": "css3-cube",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A canvas-free, CSS3 only cube",
   "main": "Cube.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jsdoc": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add docs && git commit -m \"chore: Docs generation\"",
-    "build": "babel Cube.js -o Cube.min.js",
+    "jsdoc": "jsdoc . -R README.md -c docs/jsdoc-conf.json && git add docs",
+    "build": "babel Cube.js -o Cube.min.js && git add Cube.min.js && git commit -m \"chore: Docs generation\"",
     "release": "npm run jsdoc && npm run build && standard-version"
   },
   "repository": {
